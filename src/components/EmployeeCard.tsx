@@ -51,8 +51,7 @@ const EmployeeCard: React.FC<EmployeeCardProps> = ({ employee }) => {
                 {/* Center Text */}
                 <div className="flex-1 text-center px-2 sm:px-4">
                   <h1 className="text-sm sm:text-xl font-bold text-gray-900">الجمهورية العربية السورية</h1>
-                  <h2 className="text-xs sm:text-lg font-semibold text-gray-700 mt-0.5 sm:mt-1">وزارة الأوقاف</h2>
-                  <h3 className="text-xs sm:text-base font-medium text-gray-600 mt-0.5 sm:mt-1">شركة أوقاف للخلوي</h3>
+                  <h2 className="text-xs sm:text-lg font-semibold text-gray-700 mt-0.5 sm:mt-1">مديرية أوقاف حلب</h2>
                 </div>
 
                 {/* Flag Icon */}
