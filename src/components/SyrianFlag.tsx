@@ -3,17 +3,17 @@ import React from 'react';
 const SyrianFlag: React.FC = () => {
   return (
     <svg viewBox="0 0 900 600" className="w-full h-full">
-      {/* Red stripe */}
-      <rect width="900" height="200" fill="#CE1126" />
+      {/* Green stripe - Top */}
+      <rect width="900" height="200" fill="#007A3D" />
 
-      {/* White stripe */}
+      {/* White stripe - Middle */}
       <rect y="200" width="900" height="200" fill="#FFFFFF" />
 
-      {/* Black stripe */}
+      {/* Black stripe - Bottom */}
       <rect y="400" width="900" height="200" fill="#000000" />
 
-      {/* Green stars */}
-      <g fill="#007A3D">
+      {/* Red stars on white stripe */}
+      <g fill="#CE1126">
         {/* First star */}
         <path
           d="M 225 250 L 244 306 L 304 306 L 256 342 L 275 398 L 225 362 L 175 398 L 194 342 L 146 306 L 206 306 Z"
