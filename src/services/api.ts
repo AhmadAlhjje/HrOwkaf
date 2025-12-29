@@ -1,8 +1,9 @@
 import axios from 'axios';
 import { Employee } from '../types/employee';
 
-const BASE_URL = 'http://185.216.132.28:80/api';
-const AUTH_TOKEN = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6ImFkbWluIiwidXNlcl90eXBlIjoic3VwZXJfYWRtaW4iLCJlbXBsb3llZV9pZCI6bnVsbCwiZGVwYXJ0bWVudF9pZCI6bnVsbCwiYnJhbmNoX2lkIjpudWxsLCJleHAiOjE3OTgxMDgxNjV9.Lh18zYhe-st12zhfgajT8RITDTPmUTxsYjPKwJburJM';
+const BASE_URL = import.meta.env.VITE_BASE_URL;
+const AUTH_TOKEN = import.meta.env.VITE_AUTH_TOKEN;
+
 
 // Create axios instance with default config
 const apiClient = axios.create({
