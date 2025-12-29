@@ -21,7 +21,7 @@ const EmployeeCard: React.FC<EmployeeCardProps> = ({ employee }) => {
       </button>
 
       {/* Card Container */}
-      <div className="relative w-[856px] h-[540px]">
+      <div className="relative w-[856px] h-[620px]">
         {/* Front side of the card */}
         <div
           className={`absolute inset-0 transition-all duration-500 ${
@@ -63,7 +63,7 @@ const EmployeeCard: React.FC<EmployeeCardProps> = ({ employee }) => {
             </div>
 
             {/* Main Content Area */}
-            <div className="flex gap-6 px-6 py-4 pb-16">
+            <div className="flex gap-6 px-6 py-4 pb-6">
               {/* Left Section - Photo */}
               <div className="flex flex-col items-center">
                 {/* Employee Photo */}
@@ -157,20 +157,6 @@ const EmployeeCard: React.FC<EmployeeCardProps> = ({ employee }) => {
                 </div>
               </div>
             </div>
-
-            {/* Bottom Border - Syrian Flag Colors */}
-            <div className="absolute bottom-12 left-0 right-0 h-1 flex">
-              <div className="flex-1 bg-green-700"></div>
-              <div className="flex-1 bg-white"></div>
-              <div className="flex-1 bg-black"></div>
-            </div>
-
-            {/* Footer */}
-            <div className="absolute bottom-0 left-0 right-0 bg-gray-900 py-3 px-6">
-              <div className="flex justify-center items-center text-white text-sm">
-                <span className="font-semibold tracking-wide">بطاقة شخصية وظيفية</span>
-              </div>
-            </div>
           </div>
         </div>
 
@@ -213,7 +199,7 @@ const EmployeeCard: React.FC<EmployeeCardProps> = ({ employee }) => {
             </div>
 
             {/* Instructions Content */}
-            <div className="px-6 py-4 pb-16">
+            <div className="px-6 py-4 pb-6">
               <div className="bg-gray-50 border-2 border-gray-300 rounded-lg p-4 mb-4">
                 <ul className="space-y-2.5">
                   <li className="flex items-start gap-2">
@@ -289,20 +275,6 @@ const EmployeeCard: React.FC<EmployeeCardProps> = ({ employee }) => {
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-
-            {/* Bottom Border - Syrian Flag Colors */}
-            <div className="absolute bottom-12 left-0 right-0 h-1 flex">
-              <div className="flex-1 bg-green-700"></div>
-              <div className="flex-1 bg-white"></div>
-              <div className="flex-1 bg-black"></div>
-            </div>
-
-            {/* Footer */}
-            <div className="absolute bottom-0 left-0 right-0 bg-gray-900 py-3 px-6">
-              <div className="flex justify-center items-center text-white text-sm">
-                <span className="font-semibold tracking-wide">بطاقة شخصية وظيفية</span>
               </div>
             </div>
           </div>
